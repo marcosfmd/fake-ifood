@@ -1,178 +1,269 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="./assests/css/reset.css">
-        <link rel="stylesheet" href="./assests/css/estilo.css">
-        <title>HOME 1</title>
-    </head>
-    <body>
-        <header>
-            <section class="cabecalho1"> 
-                <figure class="figure_cabecalho1">
-                    <img src="./assests/images/IFood_logo.svg.png" alt="Logo do Ifood">
-                </figure>
-                <ul class="lista_cabecalho1">
-                    <li class="item_lista_cabecalho1"><a href="#">Restaurante</a></li>
-                    <li class="item_lista_cabecalho1"><a href="#">Bebidas</a></li>
-                    <li class="item_lista_cabecalho1"><a href="#">Farmácia</a></li>
-                    <li class="item_lista_cabecalho1"><a href="#">Express</a></li>
-                    <li class="item_lista_cabecalho1"><a href="#">Pets</a></li>
-                </ul>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assests/css/reset.css">
+    <link rel="stylesheet" href="assests/css/style.css">
+    <title>Ifood</title>
+</head>
+<body>
+    <header>
+        <nav class="nav-bar">
+            <figure> 
+                <img src="assests/images/IFood_logo.svg.png" alt="">
+            </figure>
 
-                <figure class="figure_busca_site">
-                    <img src="" alt="Buscar no site">
-                </figure>
+            <ul>
+                <li><a href="#">Restaurante</a></li>
+                <li><a href="#">Mercado</a></li>
+                <li><a href="#">Bebidas</a></li>
+                <li><a href="#">Farmacia</a></li>
+                <li><a href="#">Express</a></li>
+                <li><a href="#">Pets</a></li>
+                <input type="text" placeholder="&#x1F50D Buscar no site">
+            </ul>
 
-                <div class="endereco">
-                    <p>R. Rio Piracicaba, 141</p>
-                    <figure class="avatar">
-                        <img src="" alt="Imagem de Avatar">
-                    </figure>
-                </div>    
-                <div class="saldo"> 
-                    <p>R$ 0,00</p>
-                </div>
-            </section>
-            <section class="cabecalho2">
-               
-                
-                <ul class="lista_cabecalho2">
-                    <li class="item_lista_cabecalho2"><button> Ordenar </button></li>
-                    <li class="item_lista_cabecalho2"><button>Para retirar</button></li>
-                    <li class="item_lista_cabecalho2"><button>Entrega Grátis</button></li>
-                    <li class="item_lista_cabecalho2"><button>Vale-Refeição</button></li>
-                    <li class="item_lista_cabecalho2"><button>Distância</button></li>
-                    <li class="item_lista_cabecalho2"><button>Entrega Parceira</button></li>
-                    <li class="item_lista_cabecalho2"><button>Super Restaurantes</button></li>
-                    <li class="item_lista_cabecalho2"><button>Filtros</button></li>
-                    <li class="item_lista_cabecalho2"><button>Limpar</button></li>
+            <div class="endereco">
+                    <img class="avatar" src="assests/images/outros_icones/usuario.jpg" alt="Imagem de Avatar">
+                <p>R. Belo Horizonte, 141</p>
+                <p>R$ 0,00</p>
+            </div>    
+        </nav>
+        
+        <section class="cabecalho">
+            <div class="navegacao">
+                <ul>
+                    <li><button>Ordenar</button></li>
+                    <li><button>&#x1F6B6 Para retirar</button></li>
+                    <li><button>Entrega Grátis</button></li>
+                    <li><button>Vale-refeição</button></li>
+                    <li><button>Distância</button></libu>
+                    <li><button>Entrega Parceira</button> </li>
+                    <li><button>Filtros</button></li>
+                    <li><button>Limpar</button></li>
                 </ul>
-            </section>
-        </header>
-        <main>
-            <section class="lista_opcoes">
+            </div>
+        </section>
+    </header>
+    
+    
+    <main>
+        <section class="escolha">
+            <div class="lista-opcoes">
                 <ul>
                     <li>
                         <figure>
-                            <img src="./assests/images/icones/Mercado.jpg" alt="Icone de Mercado">
+                            <img src="assests/images/icones/Mercado.jpg" alt="imagem do mercado">
                             <p>Mercado</p>
                         </figure>
                     </li>
                     <li>
                         <figure>
-                            <img src="./assests/images/icones/Lanches.jpg" alt="Icone de Lanche">
-                            <p>Lanche</p>
+                            <img src="assests/images/icones/Lanches.jpg" alt="imagem lanches">
+                            <p>Lanches</p>
                         </figure>
                     </li>
                     <li>
                         <figure>
-                            <img src="./assests/images/icones/Cafeteria.jpg" alt="Icone de Cafeteria">
+                            <img src="assests/images/icones/Cafeteria.jpg" alt="imagem Cafeteria">
                             <p>Cafeteria</p>
                         </figure>
                     </li>
                     <li>
                         <figure>
-                            <img src="./assests/images/icones/Salgados.jpg" alt="Icone de Salgados">
+                            <img src="assests/images/icones/Salgados.jpg" alt="imagem Salgados">
                             <p>Salgados</p>
                         </figure>
                     </li>
                     <li>
                         <figure>
-                            <img src="./assests/images/icones/Padaria.jpg" alt="Icone de Padaria">
+                            <img src="assests/images/icones/Padaria.jpg" alt="imagem Padaria">
                             <p>Padaria</p>
                         </figure>
                     </li>
                     <li>
                         <figure>
-                            <img src="./assests/images/icones/Pizza.jpg" alt="Icone de Pizzaria">
-                            <p>Pizzaria</p>
+                            <img src="assests/images/icones/Pizza.jpg" alt="imagem Pizza">
+                            <p>Pizza</p>
                         </figure>
                     </li>
                     <li>
                         <figure>
-                            <img src="./assests/images/icones/Vegetariana.jpg" alt="Icone de Vegetariana">
+                            <img src="assests/images/icones/Vegetariana.jpg" alt="imagem Vegetariana">
                             <p>Vegetariana</p>
                         </figure>
                     </li>
                     <li>
                         <figure>
-                            <img src="./assests/images/icones/Marmita.jpg" alt="Icone de Marmita">
+                            <img src="assests/images/icones/Marmita.jpg" alt="imagem marmita">
                             <p>Marmita</p>
                         </figure>
                     </li>
                     <li>
                         <figure>
-                            <img src="./assests/images/icones/Pastel.jpg" alt="Icone de Pastel">
-                            <p>Pastel</p>
+                            <img src="assests/images/icones/Pastel.jpg" alt="imagem Pastel">
+                            <p>Pastem</p>
                         </figure>
                     </li>
                     <li>
                         <figure>
-                            <img src="./assests/images/icones/Acai.jpg" alt="Icone de Açai">
+                            <img src="assests/images/icones/Acai.jpg" alt="imagem Acai">
                             <p>Açai</p>
                         </figure>
                     </li>
                     <li>
                         <figure>
-                            <img src="./assests/images/icones/conveniencia.png" alt="Icone de Conveniência">
+                            <img src="assests/images/icones/conveniencia.png" alt="imagem conveniencia">
                             <p>Conveniência</p>
                         </figure>
                     </li>
                 </ul>
-            </section>
-            <section class="banners">
-                <ul>
-                    <li>
-                        <figure>
-                            <img src="./assests/images/banner/1anodeifoodprincipalgenericarestaurante.png" alt="Banner 1">
-                        </figure>
-                    </li>
-                    <li>
-                        <figure>
-                            <img src="./assests/images/banner/BasicosDespensa50offYellowFoodsPrincipal.png" alt="Banner 2">
-                        </figure>
-                    </li>
-                    <li>
-                        <figure>
-                            <img src="./assests/images/banner/TudoQoBrasileiroAmaPrincipal.png"alt="Banner 3">
-                        </figure>
-                    </li>
-                </ul>
-            </section>
-            <section class="ultimas_lojas">
-                <h2>Últimas Lojas</h2>
-                <ul>
-                    <li>
-                        <figure>
-                            <img src="./assests/images/icones_restaurantes/racas.png" alt="Icone da Loja1">
-                        </figure>
-                    </li>
-                    <li>
-                        <figure>
-                            <img src="./assests/images/icones_restaurantes/hamburgueria.png"  alt="Icone da Loja2">
-                        </figure>
-                    </li>
-                    <li>
-                        <figure>
-                            <img src="./assests/images/icones_restaurantes/senna.png"  alt="Icone da Loja3">
-                        </figure>
-                    </li>
-                    <li>
-                        <figure>
-                            <img src="./assests/images/icones_restaurantes/sushi1.png"  alt="Icone da Loja4">
-                        </figure>
-                    </li>
-                    <li>
-                        <figure>
-                            <img src="./assests/images/icones_restaurantes/paap.png"  alt="Icone da Loja5">
-                        </figure>
-                    </li>
-                </ul>
-            </section>
-        </main>
-        <footer>
+            
+            </div>
+        </section>
+        <!-- Fim da sessao escolha -->
 
-        </footer>
-    </body>
+        <section class="banner">
+            <figure>
+                <img src="assests/images/banner/1anodeifoodprincipalgenericarestaurante.png" alt="">
+                <img src="assests/images/banner/restaurantescupomprincipal.png" alt="">
+                <img src="assests/images/banner/TudoQoBrasileiroAmaPrincipal.png" alt="">
+                <img src="assests/images/banner/BasicosDespensa50offYellowFoodsPrincipal.png" alt="">
+            </figure>
+        </section>
+        <!-- Fimm da sessao banner -->
+
+        <article class="lojas">
+            <h3> Últimas Lojas</h3>
+            <div class="lojas-visitadas">
+                <ul>
+                    <li>
+                        <figure>
+                            <img src="assests/images/icones_restaurantes/racas.png" alt="logo da loja racas">
+                            <p>Raca´s Hamburgueria</p>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="assests/images/icones_restaurantes/hamburgueria.png" alt="logo da loja">
+                            <p>Made in China Hamburgueria</p>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="assests/images/icones_restaurantes/senna.png" alt="logo da loja senna">
+                            <p>Pizza Express Senna</p>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="assests/images/icones_restaurantes/sushi1.png" alt="logo da loja Tadamichi">
+                            <p>Tadamichi</p>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="assests/images/icones_restaurantes/paap.png" alt="logo da loja Papa Burguer">
+                            <p>Papa Burguer Gourmet</p>
+                        </figure>
+                    </li>
+                </ul>
+                
+            </div>
+        </article>
+        <!-- Fim do conteudo lojas-visitadas -->
+
+        <article class="famosos-ifood">
+            <h3>Famosos no Ifood</h3>
+            <ul>
+                <li>
+                    <figure>
+                        <img src="assests/images/icones_restaurantes/padaria.png" alt="logo da Padaria Monsenhor">
+                        <p>Padaria Monsenhor</p>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="assests/images/icones_restaurantes/lanchonete.png" alt="logo da lanchonete Oasis Salgados">
+                        <p>Oasis Salgados & Lanches</p>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="assests/images/icones_restaurantes/lanchonete.png" alt="logo do Restaurante Oasis">
+                        <p>Oasis Restaurante</p>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="assests/images/icones_restaurantes/carne.png" alt="logo da loja Xavier carnes">
+                        <p>Xavier Carnes</p>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="assests/images/icones_restaurantes/shel.png" alt="logo da loja Shel">
+                        <p>Conveniência Estação</p>
+                    </figure>
+                </li>
+            </ul>
+        </article>    
+        <!--Fim Famoso no Ifood -->
+        
+        <article class="outros">
+            <h3>Outros</h3>
+            <ul>
+                <li>
+                    <figure>
+                        <img src="assests/images/outros_icones/bebidas.png" alt="imagem bebidas">
+                        <p>Beidas</p>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="assests/images/outros_icones/farmacia.png" alt="imagem farmacia">
+                        <p>Farmacia</p>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="assests/images/outros_icones/conveniencia.png" alt="imagem de conveniencia">
+                        <p>Conveniência</p>
+                    </figure>
+                </li>
+            </ul>
+        </article>
+        <!--Fim outros-->
+
+    </main>
+    <!-- fim do main -->
+
+    <!-- incio do rodape -->
+    <footer>
+        <h3>Explorer por cidades</h3>
+            <ul>
+                <li><a href="#">Belo Horizonte</a></li>
+                <li><a href="#">Brasilia</a></li>
+                <li><a href="#">Campinas</a></li>
+                <li><a href="#">Curitiba</a></li>
+                <li><a href="#">Goiânia</a></li>
+                <li><a href="#">Guarulhos</a></li>
+                <li><a href="#">João Pessoas</a></li>
+                <li><a href="#">Natal</a></li>
+                <li><a href="#">Niteroi</a> </li>
+                <li><a href="#">Porto Alegre</a></li>
+                <li><a href="#">Ribeirão das Neves</a></li>
+                <li><a href="#">Rio de Janeiro</a></li>
+                <li><a href="#">Salvador</a></li>
+                <li><a href="#">Santo Andre</a></li>
+                <li><a href="#">Santos</a></li>
+                <li><a href="#">São Bernardo do Campo</a></li>
+                <li><a href="#">São Caetano do Sul</a></li>
+                <li><a href="#">São Paulo</a></li>
+            </ul>
+    </footer>
+    <!-- fim do rodape  -->
+</body>
 </html>

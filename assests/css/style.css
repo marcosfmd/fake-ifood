@@ -1,0 +1,249 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+header .nav-bar{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    background-color: white;
+    margin-left: 30px;
+}
+
+header nav figure img {
+    width: 70px;
+    align-items: center;
+}
+
+header nav ul li {
+    display: inline;
+    padding: 5px;
+}
+
+header nav ul li a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: transparent;
+    color: #3e3e3e;
+}
+
+header nav ul li a:focus {
+    color: red;
+}
+
+.endereco {
+    display: flex;
+    align-items: center;
+}
+
+.avatar {
+    width: 40px;
+}
+
+.endereco p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding: 5px;
+}
+
+/* Estilo do cabecalho */
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin: 20px 0px;
+    margin-left: 30px;
+}
+
+.navegacao ul li {
+    display: inline;
+}
+
+.navegacao button {
+    background-color: #fff;
+    border-color: rgba(0, 0, 0, 0.185);
+    border-radius: 10px;
+    padding: 8px;
+    margin-left: 5px;
+    cursor: pointer;
+    margin-bottom: 40px;
+}
+
+/* fim do cabecalho */
+
+/* inicio do menu / escolha */
+
+.escolha {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.lista-opcoes ul {
+    display: flex;
+}
+
+.lista-opcoes figure img {
+    width: 80px;
+    padding-left: 15px;
+}
+
+.lista-opcoes figure p {
+    padding-top: 10px;
+    padding-left: 15px;
+    margin-left: 8px;
+    margin-bottom: 20px;
+}
+
+/*Fim do menu / escolha */
+
+/* inicio da section / banner */
+
+.banner {
+    display: flex;
+}
+
+.banner figure {
+    display: flex;
+}
+
+.banner figure img {
+    width: 200px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+}
+
+/* fim da section / banner */
+
+/* inicio da article / lojas-vistadas */
+
+.lojas h3 {
+    font-size: 20px;
+    color: black;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+
+.lojas-visitadas ul {
+    display: flex;
+}
+
+.lojas-visitadas figure {
+    padding-left: 15px;
+}
+
+.lojas-visitadas figure img {
+   width: 50px;   
+   border-radius: 50px;
+   margin-bottom: 10px;
+   margin-left: 30px;
+}
+
+.lojas-visitadas figure p{
+   font-family: 12px;
+   max-width: 150px;
+   margin-left: 30px;
+   margin-bottom: 40px;
+    
+}
+
+/* fim do article / lojas-vistadas */
+
+/* inicio da article / famosos ifood */
+
+.famosos-ifood h3 {
+    font-size: 20px;
+    color: black;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+
+.famosos-ifood ul {
+    display: flex;
+}
+
+.famosos-ifood figure {
+    padding-left: 15px;
+}
+
+.famosos-ifood figure img {
+   width: 50px;   
+   border-radius: 50px;
+   margin-bottom: 10px;
+   margin-left: 30px;
+}
+
+.famosos-ifood figure p{
+   font-family: 12px;
+   max-width: 150px;
+   margin-left: 30px;
+   margin-bottom: 40px;
+}
+
+/* fim do article / famosos ifood */
+
+/* inicio da article / outros */
+
+.outros h3 {
+    font-size: 20px;
+    color: black;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+
+.outros ul {
+    display: flex;
+}
+
+
+.outros figure img {
+   width: 50px;   
+   border-radius: 50px;
+   margin-bottom: 10px;
+   margin-left: 35px;
+}
+
+.outros figure p{
+   font-family: 12px;
+   max-width: 150px;   
+   margin-left: 35px;
+   margin-bottom: 40px;
+}
+/*fim article / outros */
+
+
+/* inicio do footer */
+
+footer h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    color: black;
+    margin: 20px;  
+}
+
+footer ul {
+    columns: 3;
+    padding: 10px;
+}
+
+footer ul li {
+    margin-bottom: 20px;
+}
+footer ul li a{
+    color: #717171;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+/* fim do footer */
